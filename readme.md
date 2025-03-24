@@ -9,19 +9,19 @@ This chatbot is an interactive application that allows users to query the databa
 3) Command-Line Interface (CLI): Users can interact with the chatbot via the terminal.
 
 ## Project Structure
-`database_setup.py`Initializes and  explores the Sakila SQLite database
-`chatbot.py`Core chatbot logic for converting natural language to SQL
-`streamlit_app.py`Streamlit web application for the chatbot
-`.env.example`Example environment file containing sample API key
-`.gitignore` Excludes .env from version control
-`requirements.txt`Dependencies required for the project
+1) `database_setup.py`Initializes and  explores the Sakila SQLite database
+2) `chatbot.py`Core chatbot logic for converting natural language to SQL
+3) `streamlit_app.py`Streamlit web application for the chatbot
+4) `.env.example`Example environment file containing sample API key
+5) `.gitignore` Excludes .env from version control
+6) `requirements.txt`Dependencies required for the project
 
 ## Installation
 ### Clone the Repository
 `git clone https://github.com/howlsrepository/Intelligent_Database_System`
 ### Set Up a Virtual Environment (Recommended)
-`python -m venv venv`
-`venv\Scripts\activate`
+1) `python -m venv venv`
+2) `venv\Scripts\activate`
 ### Install Dependencies 
 `pip install -r requirements.txt`
 ### Configure API Key
