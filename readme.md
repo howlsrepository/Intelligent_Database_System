@@ -9,22 +9,28 @@ This chatbot is an interactive application that allows users to query the databa
 3) Command-Line Interface (CLI): Users can interact with the chatbot via the terminal.
 
 ## Project Structure
-├── database_setup.py       # Initializes and  explores the Sakila SQLite database
-├── chatbot.py              # Core chatbot logic for converting natural language to SQL
-├── streamlit_app.py        # Streamlit web application for the chatbot
-├── .env.example            # Example environment file containing sample API key
-├── .gitignore              # Excludes .env from version control
-└── requirements.txt        # Dependencies required for the project
+`database_setup.py`       
+#Initializes and  explores the Sakila SQLite database
+`chatbot.py`              
+#Core chatbot logic for converting natural language to SQL
+`streamlit_app.py`       
+#Streamlit web application for the chatbot
+`.env.example`            
+#Example environment file containing sample API key
+`.gitignore`              
+Excludes .env from version control
+`requirements.txt`        
+Dependencies required for the project
 
 ## Installation
 ### Clone the Repository
-git clone https://github.com/howlsrepository/Intelligent_Database_System
-cd <repository_folder>
+`git clone https://github.com/howlsrepository/Intelligent_Database_System`
+`cd <repository_folder>`
 ### Set Up a Virtual Environment (Recommended)
-python -m venv venv
-source venv/bin/activate  # On Windows use: venv\Scripts\activate
+`python -m venv venv`
+`venv\Scripts\activate`
 ### Install Dependencies 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 ### Configure API Key
 1) Make a new file in yoru working directory and name it `.env`
 2) Copy contents of `.env.exmaple` to `.env`
@@ -33,8 +39,8 @@ pip install -r requirements.txt
 ## Usage
 ### Command-Line Chatbot
 Run the chatbot in the terminal: 
-python chatbot.py
+`python chatbot.py`
 
 ### Streamlit Web App
 Start the web-based chatbot: 
-streamlit run streamlit_app.py
+`streamlit run streamlit_app.py`
